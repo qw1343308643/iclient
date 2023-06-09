@@ -1,0 +1,104 @@
+[StatusCode]
+1   
+2    Send log
+3    Find loader
+4    H2test
+5    BurnIn
+6    Format
+7    load Loader
+8    Copy file
+9    Compare file
+10    File hyperstable
+11    Sector hyperstable
+12   SpeedTest
+13   ReadECC
+14   Power consumer
+15   Fill disk
+16   Get SMART
+17   Wrtie log
+18   Delete file
+19   Init
+20   Wait
+64  
+65
+[ErrorCode]
+1   No device
+2   Time out
+3   Invalid device
+4   Not a specified device
+5   No more auth numbers
+6   Get disk space fail
+7   Open file fail
+8   File size not equal
+9   Create file mapping fail
+10   Create file mapping view fail
+11  Read file fail
+12  Write file fail
+13   Set file size fail
+14   Power on fail
+15  Power off fail
+16  Power on timeout
+17  Power off timeout
+18  Format fail
+19  No files on disk
+20  No files in source folder
+21  Out of disk space
+22  Delete file fail
+23  Remove dir fail
+24  Open disk fail
+25  Write sectors fail
+26  Read sectors fail
+27  Data mismatch
+28  Set file pointer fail
+29  Speed lower than the setting's
+30  Lock volume fail
+31  CMD auth fail
+32  Check block fail
+33  ECC higher than the setting's
+34  The current over the setting's
+35  Get file size fail
+36  Create dir fail
+37  H2TEST error
+38  Windows has been shut down illegally
+39  The specified path cant't be found
+40  Create process fail
+41  Set H2TEST fail
+42  Could not find the specified window
+43  Virtual alloc fail
+44  SMART higher than the setting's
+45  Get SMART fail
+46  BurnIn error
+47  Get disk number fail
+48  Open log file fail
+49  Write log file fail
+50  Get max temperature fail
+51  The max temperature over the setting's
+52  The current temperature over the setting's
+53  Illegal power off
+54  Transfer mode not equal for the first time
+55  Transfer mode not equal
+56  Rollback counts higher than the setting's
+57  Download file fail
+58  Download file time out
+59  Can not found specified file
+60  Parse JSON fail
+61  Unrar file fail
+62  Load loader fail
+63  Start test fail
+64  Get file version fail
+65  File version not equal
+66  Not the specified file
+67  Can not found the specified window
+68  Get device information fail
+69  Get Proc address fail
+70  Can not found rar file
+71  Can not found the specified logical drive
+72  Get serial fail
+73  Can not found specified port
+74  Can not found specified  logical device
+75  Enum process fail
+76  IOMeter error
+77  Can not found mount point
+78  Mount fail
+79  No power device
+80  program aborted

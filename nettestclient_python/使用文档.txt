@@ -1,0 +1,17 @@
+使用环境要求:
+python3.9.0版本
+在python环境后还需安装websocket-client
+sudo pip3 install websocket-cilent
+确认python软连接指向python3.9版本
+安装编译python时确保安装有外部函数库
+sudo apt-get install libffi-dev
+
+
+使用说明:
+管理员身份直接运行:python NetTestPyClient.py -ip 分布式服务端IP地址
+管理员身份安装运行:./Install.sh 安装目录 主机名 分布式服务端IP地址
+
+测试服IP:10.2.76.254
+正式服IP:10.2.3.144
+
+

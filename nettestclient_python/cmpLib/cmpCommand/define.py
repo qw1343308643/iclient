@@ -1,0 +1,43 @@
+from enum import Enum
+
+NCMD_FLAG = 0x20141107
+
+_PACK_FORMAT_STR = "ii260s"
+
+
+class PACKET_TYPE(Enum):
+    PACKET_NOMAL = 0
+    PACKET_ACK = 1
+    PACKET_RESPONSE = 2
+
+
+class ACK_TYPE(Enum):
+    NEED_NONE = 0
+    NEED_ACK = 1
+    NEED_RESPONSE = 2
+    NEED_ALL = 3
+
+class CMP_CMD_TYPE(Enum):
+    CMP_NONE = 0
+    CMP_ADD_DISK = 1
+    CMP_START_TEST = 2
+    CMP_STOP_TEST = 3
+    CMP_GET_STATUS = 4
+    CMP_SEND_STATUS = 5
+    CMP_GET_LOG = 6
+    CMP_SEND_LOG = 7
+    CMP_TEST_PARAM = 8
+    CMP_GET_WORK_TYPE = 9
+    CMP_REBOOT_NOTIFY = 10
+    CMP_GET_WORK_CONFIG = 11
+    CMP_GET_TOOL_ID = 12
+    CMP_EXIT = 13
+    CMP_GET_PID = 14
+    CMP_INIT = 15
+    CMP_GET_STATUS_ID = 16
+
+
+class ERROR_STATE(Enum):
+    ERROR_STATE_OK = 0
+    ERROR_STATE_ERROR = 1
+    ERROR_STATE_WARNING = 2
